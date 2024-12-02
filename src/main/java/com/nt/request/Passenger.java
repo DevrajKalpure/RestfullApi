@@ -1,0 +1,16 @@
+package com.nt.request;
+
+import lombok.Data;
+
+@Data
+public class Passenger {
+	
+	private String fname;
+	private String  lname;
+	private String to;
+	private String  from;
+	private String doj;
+	private String  trainNum;
+	
+
+}
